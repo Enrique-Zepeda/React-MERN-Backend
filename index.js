@@ -27,5 +27,6 @@ app.use("/api/events", require("./routes/events"));
 
 // Escuchar peticiones
 app.listen(process.env.PORT, () => {
+  console.log("Hola RailWay");
   console.log(`Servidor corriendo en puerto ${process.env.PORT}`);
 });
