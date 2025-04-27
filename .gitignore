@@ -1,0 +1,24 @@
+# Ignorar variables de entorno
+.env
+**/.env
+
+# Dependencias
+node_modules/
+**/node_modules/
+
+# Archivos de log
+*.log
+
+# Salida de producción
+dist/
+build/
+
+# Configs temporales
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDEs
+.vscode/
